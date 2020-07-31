@@ -1,0 +1,27 @@
+.container{
+    margin: 0,0;
+    width: 80%;
+}
+
+.card {
+    margin: 0 5px !important;
+    min-width: 200px;
+    flex-direction: row;
+}
+
+.confirmed{
+    border-bottom: 10px solid rgba(0, 0, 255, 0.5);
+}
+
+.recovered{
+    border-bottom: 10px solid rgba(0, 255, 0, 0.5);
+}
+
+.deaths{
+    border-bottom: 10px solid rgba(255, 0, 0, 0.5);
+}
+
+.cardRoot {
+    color: brown;
+    background-color: aquamarine;
+}

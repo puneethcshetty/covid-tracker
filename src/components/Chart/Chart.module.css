@@ -1,0 +1,19 @@
+.container{
+    margin: 50px 5px;
+    width: 80%;
+}
+
+.card {
+    margin: 5px 5px !important;
+    min-width: 200px;
+    flex-direction: row;
+}
+
+.country{
+    border-bottom: 10px solid rgb(0, 255, 255);
+}
+
+.cardRoot {
+    color: brown;
+    background-color: aquamarine;
+}
