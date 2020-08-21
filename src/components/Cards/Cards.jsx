@@ -4,6 +4,7 @@ import CountUp from 'react-countup';
 import cx from 'classnames';
 
 import styles from './Cards.module.css';
+
 const Cards = ({data:{global, date}}) => {
     if(!global)
         return 'Loading...';
